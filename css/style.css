@@ -6695,7 +6695,7 @@ section:not(.feed_main_section) .game_text{
         color: #212121;
         font: 18px/25px  "GuardianEgyp-Regular";
         margin: 0 auto;
-        max-width: 520px;
+        max-width: 450px;
         /*padding-top: 450px;*/
         text-align: center;
     }
@@ -6946,9 +6946,9 @@ img.separador{
 
 
 h1 {
-    font: 28px/1.2 "GuardianTextEgypt-Black";
+    font: 1.8rem / 1.2 "GuardianTextEgypt-Black";
     margin: 0 auto 20px;
-    max-width: 370px;
+    max-width: 255px;
     padding-top: 350px;
     text-align: center;
 }
