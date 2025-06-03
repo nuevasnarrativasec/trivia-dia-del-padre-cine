@@ -42,7 +42,7 @@
                             }
                          },
                          "html": "<div class=\"box_kill_bill\"><\/div>",
-                         "text":"Si hay algo que sabe hacer Will Hayes, es comunicar. Comunicarse con su hija, comunicarse con los votantes, con el pÃºblico...Es un padre separado, pero supo hacer de su casa de padre soltero un hogar para su hija, su prioridad en la vida. Sabe reconocer sus errores, lo cual lo hace muy humano y lo aleja del 'porque yo lo digo' de los padres tradicionales. Es tan humano que su hija pre adolescente tiene que explicarle que debe ir a buscar a la chica de la cual estÃƒÂ¡ enamorado. Y tÃº, Â¿quÃ© tuviste que explicarle a papÃ¡?.",
+                         "text":"Si hay algo que sabe hacer Will Hayes, es comunicar. Comunicarse con su hija, comunicarse con los votantes, con el público...Es un padre separado, pero supo hacer de su casa de padre soltero un hogar para su hija, su prioridad en la vida. Sabe reconocer sus errores, lo cual lo hace muy humano y lo aleja del 'porque yo lo digo' de los padres tradicionales. Es tan humano que su hija pre adolescente tiene que explicarle que debe ir a buscar a la chica de la cual está enamorado. Y tú, ¿qué tuviste que explicarle a papá?.",
                          "title":"Will Hayes"
                       },
                       {  
@@ -68,7 +68,7 @@
                             }
                          },
                          "html": "<div class=\"box_harley\"><\/div>",
-                         "text":"Aunque el amor por su hijo y por su familia (vamos, Dory no necesita ser la madre de Nemo para ser parte de la familia) es indiscutible, el padre de Nemo puede tocarnos de nervios por sobreprotector. Su buen corazÃ³n hace que Marlin aprenda de sus errores y supere sus prejuicios. Es un papÃ¡ que puede convertirse en un gran amigo...con la ayuda de unas gotas de Nervocalm.",
+                         "text":"Aunque el amor por su hijo y por su familia (vamos, Dory no necesita ser la madre de Nemo para ser parte de la familia) es indiscutible, el padre de Nemo puede tocarnos de nervios por sobreprotector. Su buen corazón hace que Marlin aprenda de sus errores y supere sus prejuicios. Es un papá que puede convertirse en un gran amigo...con la ayuda de unas gotas de Nervocalm.",
                          "title":"Marlin"
                       },
                       {  
@@ -94,7 +94,7 @@
                             }
                          },
                          "html": "<div class=\"box_lisa\"><\/div>",
-                         "text":"No hay ausente mÃ¡s adorable que Edward Bloom. Ausente por su trabajo, aunque su corazÃ³n estÃ¡s en casa. La pelÃ­cula es una fÃ¡bula tan hermosa que se le perdona la moraleja. La reconciliaciÃ³n del hijo con su padre poco convencional tiene una lecciÃ³n, pero tambiÃ©n es una forma de vestir con imaginaciÃ³n la figura del padre proveedor que cuya presencia en el hogar podrÃ­Â­a ser prescindible. Todo bien con la pelÃ­Â­cula, pero no vayamos por la vida romantizando la ausencia de los padres.",
+                         "text":"No hay ausente más adorable que Edward Bloom. Ausente por su trabajo, aunque su corazón estás en casa. La película es una fábula tan hermosa que se le perdona la moraleja. La reconciliación del hijo con su padre poco convencional tiene una lección, pero también es una forma de vestir con imaginación la figura del padre proveedor que cuya presencia en el hogar podría ser prescindible. Todo bien con la película, pero no vayamos por la vida romantizando la ausencia de los padres.",
                          "title":"Edward Bloom"
                       },
                       {  
@@ -120,7 +120,7 @@
                             }
                          },
                          "html": "<div class=\"box_merida\"><\/div>",
-                         "text":"Robert Haynes es un hombre rudo. Tiene sus motivos: es un ex convicto. Una noche, en medio de una trifulca que sale mal, termina secuestrando a un niÃ±o. Un niÃ±o sin padre que se convierte en su compaÃ±ero de aventuras. Haynes asume el papel del padre ausente en medio de una situaciÃ³n inverosÃ­Â­mil, pero que en la pelÃ­Â­cula resulta no solo creÃƒÂ­ble, sino entraÃ±able. Lo mÃ¡s asombroso es ver cÃ³mo un hombre de carÃ¡cter Ã¡spero es quien le enseÃ±a al niÃ±o la ternura. Padre no siempre es el que engendra.",
+                         "text":"Robert Haynes es un hombre rudo. Tiene sus motivos: es un ex convicto. Una noche, en medio de una trifulca que sale mal, termina secuestrando a un niño. Un niño sin padre que se convierte en su compañero de aventuras. Haynes asume el papel del padre ausente en medio de una situación inverosímil, pero que en la película resulta no solo creíble, sino entrañable. Lo más asombroso es ver cómo un hombre de carácter áspero es quien le enseña al niño la ternura. Padre no siempre es el que engendra.",
                          "title":"Robert Haynes"
                       },
                       {  
@@ -146,7 +146,7 @@
                             }
                          },
                          "html": "<div class=\"box_woods\"><\/div>",
-                         "text":"Henry Jones papÃ¡ fue encarnado magnÃ­ficamente por Sean Connery a fines de los 80, en una pelÃ­Â­cula que explicaba los trumas infantiles y adolescentes del prototipo de macho que encarnaba Harrison Ford en Indiana Jones. Un padre viudo, sumergido en su trabajo de profesor de literatura medieval, que le pide a su hijo que cuente hasta 100 en griego antes de responderle a una pregunta importante, es quien marca la formaciÃ³n del aventurero Indiana. La distancia que se genera entre ambos durante la adolescencia se acorta cuando Indiana comparte una de sus aventuras con su padre. Ya saben, muchachos: dejar que sus padres ingresen a su mundo, puede ser la soluciÃ³n a sus daddy issues.",
+                         "text":"Henry Jones papá fue encarnado magníficamente por Sean Connery a fines de los 80, en una película que explicaba los trumas infantiles y adolescentes del prototipo de macho que encarnaba Harrison Ford en Indiana Jones. Un padre viudo, sumergido en su trabajo de profesor de literatura medieval, que le pide a su hijo que cuente hasta 100 en griego antes de responderle a una pregunta importante, es quien marca la formación del aventurero Indiana. La distancia que se genera entre ambos durante la adolescencia se acorta cuando Indiana comparte una de sus aventuras con su padre. Ya saben, muchachos: dejar que sus padres ingresen a su mundo, puede ser la solución a sus daddy issues.",
                          "title":"Henry Jones"
                       }
                    ],
@@ -807,7 +807,7 @@
                                "results":{  
                                   "4ee8c087-c1ad-4548-8d9e-d60bd16353de":"2"
                                },
-                               "text":"ClÃ¡sico, pero tiene un toque moderno."
+                               "text":"C{lÃ¡}sico, pero tiene un toque moderno."
                             }
                          ],
                          "image":{  

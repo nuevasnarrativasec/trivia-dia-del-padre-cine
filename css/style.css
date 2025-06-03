@@ -1,19 +1,17 @@
 @font-face {
     font-family: 'actobook';
-    src: url('../fonts/acto-book-webfont.woff2') format('woff2'),
-         url('../fonts/acto-book-webfont.woff') format('woff');
+    src: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/puerto-de-chancay/fonts/acto-book-webfont.woff2') format('woff2'),
+         url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/puerto-de-chancay/fonts/acto-book-webfont.woff') format('woff');
 }
-
 @font-face {
     font-family: 'actobold';
-    src: url('../fonts/acto-bold-webfont.woff2') format('woff2'),
-         url('../fonts/acto-bold-webfont.woff') format('woff');
+    src: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/puerto-de-chancay/fonts/acto-bold-webfont.woff2') format('woff2'),
+         url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/puerto-de-chancay/fonts/acto-bold-webfont.woff') format('woff');
 }
-
 @font-face {
     font-family: 'actoblack';
-    src: url('../fonts/acto-black-webfont.woff2') format('woff2'),
-         url('../fonts/acto-black-webfont.woff') format('woff');
+    src: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/puerto-de-chancay/fonts/acto-black-webfont.woff2') format('woff2'),
+         url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/puerto-de-chancay/fonts/acto-black-webfont.woff') format('woff');
 }
 
 @font-face {
@@ -5725,10 +5723,10 @@ section:not(.feed_main_section) .game_text{
     margin: 0 auto;
     margin-bottom: 15px;
     overflow: hidden;
-    padding: 0;
+    padding: 0 20px;
     position: relative;
     text-align: center;
-    width: 16% !important;
+    width: fit-content !important;
 
     box-sizing: border-box;
     -moz-box-sizing:border-box;
