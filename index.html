@@ -17,31 +17,31 @@
         <meta content="width=device-width" name="viewport" />
 
         <!--estilos-->
-        <link href="https://nuevasnarrativasec.github.io/trivia-dia-del-padre-cine/css/style.css?v6" rel="stylesheet" />
+        <link href="../css/style.css?v6" rel="stylesheet" />
         <link href="https://nuevasnarrativasec.github.io/trivia-dia-del-padre-cine/css/style-cara.css?v5" rel="stylesheet" />
     </head>
 
     <body class="pb_feed_body gamedetailsbackground embedded-item-container" data-gameid="b516b5b7-3804-4aec-8426-a9ff0e31a32d">
+
+        
        
         <section class="main_section feed_main_section autoHeight multiple_items_display" data-page-type="Game:Play">
             <div class="item-stats"></div>
             <div class="ads_atf_wrapper adunit-wrapper">
                 <div class="adunit" id="ad-top-atf"></div>
             </div>
-            <header>
-                <div class="header-comercio">
-                    <div class="ctn-header-comercio">
-                        <a class="logo-comercio" href="http://elcomercio.pe/" target="blank">El comercio</a>
-                        <div id="social">
-                            <button class="sharer button" data-hashtag="" data-sharer="facebook" data-url="https://elcomercio.pe/luces/dia-padre-2025-trivia-papas-pelicula-especdis-noticia/" id="fb">Facebook</button>
-                            <button class="sharer button" data-sharer="whatsapp" data-title="Trivia | Día del Padre: ¿Tienes un padre de película?" data-url="https://elcomercio.pe/luces/dia-padre-2025-trivia-papas-pelicula-especdis-noticia/" id="wst">Whatsapp</button>
-                            <button class="sharer button" data-hashtags="" data-sharer="twitter" data-title="Trivia | Día del Padre: ¿Tienes un padre de película?" data-url="https://elcomercio.pe/luces/dia-padre-2025-trivia-papas-pelicula-especdis-noticia/" data-via="elcomercio_peru" id="tw">Twitter</button>
-                        </div>
+            <div class="header-comercio">
+                <div class="ctn-header-comercio">                
+                    <div id="social">
+                        <button id="fb" class="sharer button" data-sharer="facebook" data-hashtag="" data-url="https://elcomercio.pe/luces/dia-padre-2025-trivia-papas-pelicula-especdis-noticia/">Facebook</button>
+
+                        <button id="wst" class="sharer button" data-sharer="whatsapp" data-title="Nacional | El Comercio" data-url="https://elcomercio.pe/luces/dia-padre-2025-trivia-papas-pelicula-especdis-noticia/">Whatsapp</button>
+
+                        <button id="tw" class="sharer button" data-sharer="twitter" data-title="Nacional | El Comercio" data-hashtags="" data-via="elcomercio_peru" data-url="https://elcomercio.pe/luces/dia-padre-2025-trivia-papas-pelicula-especdis-noticia/">Twitter</button>
                     </div>
-                    <!--ctn-header-comercio-->
-                </div>
-                <!--header-comercio-->
-            </header>
+                </div>            
+            </div>
+
             <div class="box-header">
                 <h1>¿Tienes un padre de película?</h1>
                 <h2>Descubre a qué padre del cine se parece tu papá y compártelo en el marco del Día del padre.</h2>
@@ -1019,5 +1019,43 @@
                 
             </div>
         </section>
+
+        <!-- compartir -->
+    <script>
+        function shareUrl(event) {
+            const button = event.target;
+            const url = button.getAttribute('data-url');
+            
+            const sharer = button.getAttribute('data-sharer');
+            let shareUrl = '';
+
+            switch (sharer) {
+            case 'facebook':
+                const fbHashtag = button.getAttribute('data-hashtag') || '';
+                shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}&hashtag=${encodeURIComponent(fbHashtag)}`;
+                break;
+                
+            case 'whatsapp':
+                const whatsappTitle = button.getAttribute('data-title');
+                shareUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(whatsappTitle + ' ' + url)}`;
+                break;
+                
+            case 'twitter':
+                const twitterTitle = button.getAttribute('data-title');
+                const twitterHashtags = button.getAttribute('data-hashtags');
+                const twitterVia = button.getAttribute('data-via');
+                shareUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(twitterTitle)}&url=${encodeURIComponent(url)}&hashtags=${twitterHashtags}&via=${twitterVia}`;
+                break;
+            }
+
+            window.open(shareUrl, '_blank');
+        }
+
+        document.querySelectorAll('.sharer').forEach(button => {
+            button.addEventListener('click', shareUrl);
+        });
+    </script>
+
+
     </body>
 </html>
